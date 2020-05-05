@@ -7,128 +7,217 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
     <body>
-      <section id="skills">
-        <header>
-          <img src="images/photo.jpg" alt="Daniela Vaseva" width="250">
+      <div class="fc">
+        <aside id="skills">
+          <header id="frame">
+            <img id="photo" src="images/photo.png" alt="Daniela Vaseva">
+          </header>
+          <section id="contact">
+            <h3>CONTACTS</h3>
+            <p><a href="mailto:dadano@abv.bg"><img src="images/logo2.png" alt="e-mail" title="e-mail" class="clogo"></a> dadano@abv.bg</p>
+            <p><img src="images/logo3.png" alt="linkdin" title="linkdin" class="clogo"> Daniela Vaeseva</p>
+          </section>
+          <section class="slidecontainer">
+            <h3>DEVELOPER SKILLS</h3>
+            <label for="pythonRange">Python</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="pythonRange" class="myRange">
+
+            <label for="nodeRange">Node.js</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="nodeRange" class="myRange">
+
+            <label for="javaScriptRange">JavaScript</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="javaScriptRange" class="myRange">
+
+            <label for="jQueryRange">jQuery</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="jQueryRange" class="myRange">
+
+            <label for="cRange">C#</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="cRange" class="myRange">
+
+            <label for="sqlRange">SQL</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="sqlRange" class="myRange">
+
+            <label for="mrRange">MRBasic</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="mrRange" class="myRange">
+
+            <label for="HTML5Range">HTML5</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="HTML5Range" class="myRange">
+
+            <label for="CSS3Range">CSS3</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="CSS3Range" class="myRange">
+
+            <label for="XMLRange">XML</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="XMLRange" class="myRange">
+
+            <label for="unityRange">Unity3D engine</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="unityRange" class="myRange">
+
+            <label for="photoShopRange">Adobe PhotoShop</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="photoShopRange" class="myRange">
+
+
+          </section>
+          <section class="slidecontainer">
+            <h3>LEARNING</h3>
+            <label for="TeachingRange">Teaching</label>
+            <input type="range" min="1" max="100" value="60" class="slider" id="TeachingRange" class="myRange">
+
+            <label for="gamesRange">Serious games</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="gamesRange" class="myRange">
+
+            <label for="edutainmentRange">Edutainment</label>
+            <input type="range" min="1" max="100" value="40" class="slider" id="edutainmentRange" class="myRange">
+
+          </section>
+
+          <section class="slidecontainer">
+            <h3>RESEARCH SKILLS</h3>
+            <label for="qualRange">Qualitative Research</label>
+            <input type="range" min="1" max="100" value="65" class="slider" id="qualRange" class="myRange">
+
+            <label for="quantRange">Quantitative Research</label>
+            <input type="range" min="1" max="100" value="60" class="slider" id="quantRange" class="myRange">
+
+            <label for="SPSSRange">SPSS</label>
+            <input type="range" min="1" max="100" value="55" class="slider" id="SPSSRange" class="myRange">
+
+            <label for="NvivoRange">Nvivo</label>
+            <input type="range" min="1" max="100" value="45" class="slider" id="NvivoRange" class="myRange">
+
+            <label for="msRange">Microsoft Ofﬁce</label>
+            <input type="range" min="1" max="100" value="75" class="slider" id="msRange" class="myRange">
+
+          </section>
+
+          <section class="slidecontainer">
+            <h3>LANGUAGES</h3>
+            <label for="BulgarianRange">Bulgarian</label>
+            <input type="range" min="1" max="100" value="100" class="slider" id="BulgarianRange" class="myRange">
+
+            <label for="EnglishRange">English</label>
+            <input type="range" min="1" max="100" value="85" class="slider" id="EnglishRange" class="myRange">
+
+            <label for="SwedishRange">Swedish</label>
+            <input type="range" min="1" max="100" value="25" class="slider" id="SwedishRange" class="myRange">
+
+            <label for="FrenchRange">French</label>
+            <input type="range" min="1" max="100" value="25" class="slider" id="FrenchRange" class="myRange">
+
+          </section>
+        </aside>
+
+        <main id="experience">
+          <header>
+            <h1><span id="first_name">DANIELA</span> VASEVA</h1>
+            <h2>Developer</h2>
+            <p class="info">In the past years I was programming surveys with Python, jQuery, JavaScript, and MRBasic and completed successfully over 80 projects. Also I was working on research projects in the area of serious games and simulations. During my studies I have taken courses in Perl and C#. I am passionate about learning new technologies and programming languages and experimenting with innovative ideas. I really enjoy being active and practicing fun sports like dancing, aerial skills, martial arts and a variety of natural movements. I am most passionate about all kinds of games and would love to take this approach in my work with children.</p>
+          </header>
+          <section id="job_experience">
+            <h3><span>JOB EXPERIENCE</span></h3>
+            <details open>
+              <summary class="job">Programmer</summary>
+              <p class="company">IndigoVerge Ltd.</p>
+              <p class="job_description">Developing web applications and integrating marketing solutions. </p>
+              <aside class="date">05.2017 – Present</aside>
+
+            </details>
+            <details open>
+              <summary class="job">Programmer online surveys </summary>
+              <p class="company">FocusVision Ltd.</p>
+              <p class="job_description">Developing and monitoring surveys for Universal Music, Mesh and PayPal. Striving to achieve the best results possible</p>
+              <aside class="date">08.2015 – 10.2016</aside>
+            </details>
+            <details open>
+              <summary class="job">Research Assistant </summary>
+              <p class="company">Serious Games Institute, UK</p>
+              <p class="job_description">Designing and conducting research project on using avatars in automobiles for Jaguar Land Rover.</p>
+              <aside class="date">02.2015 – 05.2015</aside>
+            </details>
+            <details open>
+              <summary class="job">Programmer online surveys </summary>
+              <p class="company">Ipsos Ltd.</p>
+              <p class="job_description">Developing and monitoring marketing surveys for McDonald's, Chanel, Electrolux, Pepsi, some of the most famous Tobacco, soft-drinks, and chocolate companies, as well as for the healthcare, technology, cosmetics and fashion markets. Always satisfying the client's requirements and delivering excellent products. </p>
+              <aside class="date">10.2012 – 04.2014</aside>
+            </details>
+            <details open>
+              <summary class="job">Developer, Internet applications</summary>
+              <p class="company">Dynamic Zones Ltd.</p>
+              <p class="job_description">Development of Internet applications for web developers. Technical writing. Publishing articles. </p>
+              <aside class="date">10.2011 – 03.2012</aside>
+            </details>
+            <details open>
+              <summary class="job">QA and Web developer</summary>
+              <p class="company">JobTiger Ltd., Soﬁa</p>
+              <p class="job_description">Testing internet sites of the company JobTiger Ltd. Developing new functionalities for the site jobtiger.bg. Technical writing. </p>
+              <aside class="date">09.2010 - 12.2010</aside>
+            </details>
+            <details open>
+              <summary class="job">QA and maintainance of data.bg </summary>
+              <p class="company">Homelan AD, Soﬁa</p>
+              <p class="job_description">Testing and maintaining the site. Publishing and editing information and articles. Forum administrator of www.data.bg.</p>
+              <aside class="date">09.2008 - 06.2009 </aside>
+            </details>
+          </section>
+          <section id="publications">
+            <h3><span>PUBLICATIONS</span></h3>
+            <p>The Potential of Serious Games Based on Literary Plots to Develop Knowledge, Skills and Habitual Patterns, VS-Games, Malta, 2014
+            Nature and Characteristics of Serious Games, 5-th Conference On E-Learning, Rouse, 2014
+            Serious games for behaviour change classification and overview, Contemporary Challenges To The Science Of Education International Conference, Sofia, 2014
+            The Potential of Serious Games for Language and Literature Learning, VSIM, Ravda, 2014</p>
+          </section>
+          <section id="education">
+            <h3><span>EDUCATION</span></h3>
+            <details open>
+              <summary class="course">Decipher Programming Certiﬁcation</summary>
+              <p class="institution">FocusVision / Fresno State</p>
+              <p class="course_description">Python survey programming. Programmer in the Decipher platform.</p>
+              <aside class="date">09.2015</aside>
+            </details>
+            <details open>
+              <summary class="course">PhD: Special Research Course </summary>
+              <p class="institution">Institute of Education, London</p>
+              <p class="course_description">Qualitative and Quantitative Research</p>
+              <aside class="date">04.2014 – 06.2014</aside>
+            </details>
+            <details open>
+              <summary class="course">PhD: E-Learning </summary>
+              <p class="institution">Soﬁa University St. Kliment Ohridski</p>
+              <p class="course_description">Education, Serious games, Simulations</p>
+              <aside class="date">02.2013 - Present </aside>
+            </details>
+            <details open>
+              <summary class="course">Master: Nordic Studies </summary>
+              <p class="institution">Soﬁa University St. Kliment Ohridski</p>
+              <p class="course_description">Swedish language and Nordic history and culture.</p>
+              <aside class="date">10.2010 - 06.2012</aside>
+            </details>
+            <details open>
+              <summary class="course">Master: Computational Linguistics. Internet Technologies in the Humanities </summary>
+              <p class="institution">Soﬁa University St. Kliment Ohridski</p>
+              <p class="course_description">Specialist in the sphere of electronic processing, analysis and publication of the texts.
+              Professional qualification in the main directions of computer appliances in Humanitarian Studies - processing of the natural language, electronic publications, problems related to cyberculture and net literature.
+              Courses in Programming and Markup Languages.
+
+              Master's thesis: Mythological motifs in the fantasy role playing games.
+              Analysis of the problems of Interactive fiction in video games.</p>
+              <aside class="date">11.2008 - 09.2009 </aside>
+            </details>
+            <details open>
+              <summary class="course">Bachelor: Bulgarian Philology </summary>
+              <p class="institution">Soﬁa University St. Kliment Ohridski</p>
+              <p class="course_description">Specialist in Bulgarian language and literature. Professional qualiﬁcation for teacher at high schools. Humanities</p>
+              <aside class="date">10.2004 - 09.2008 </aside>
+            </details>
+          </section>
+        </main>
+        <footer>
+          <hr>
           <nav>
-            <a href="#Jjob_experience">JOB EXPERIENCE</a>
+            <a href="#experience">JOB EXPERIENCE</a>
             <a href="#publications">PUBLICATIONS</a>
             <a href="#education">EDUCATION</a>
           </nav>
-        </header>
-        <section id="contact">
-          <h3>CONTACTS</h3>
-          <p><a href="mailto:dadano@abv.bg"><img src="images/logo2.png" alt="e-mail" title="e-mail" class="clogo"></a> dadano@abv.bg</p>
-          <p><img src="images/logo3.png" alt="linkdin" title="linkdin" class="clogo"> Daniela Vaeseva</p>
-        </section>
-      </section>
-
-      <section id="experience">
-        <header>
-          <h1>DANIELA VASEVA</h1>
-          <h2>Developer</h2>
-          <p><i>In the past years I was programming surveys with Python, jQuery, JavaScript, and MRBasic and completed successfully over 80 projects. Also I was working on research projects in the area of serious games and simulations. During my studies I have taken courses in Perl and C#. I am passionate about learning new technologies and programming languages and experimenting with innovative ideas. I really enjoy being active and practicing fun sports like dancing, aerial skills, martial arts and a variety of natural movements. I am most passionate about all kinds of games and would love to take this approach in my work with children.</i></p>
-        </header>
-        <section id="job_experience">
-          <h3>JOB EXPERIENCE</h3>
-          <details>
-            <summary class="job">Programmer </summary>
-            <p class="company">IndigoVerge Ltd.</p>
-            <p class="job_description">Developing web applications and integrating marketing solutions. </p>
-            <aside class="date">05.2017 – Present</aside>
-          </details>
-          <details>
-            <summary class="job">Programmer online surveys </summary>
-            <p class="company">FocusVision Ltd.</p>
-            <p class="job_description">Developing and monitoring surveys for Universal Music, Mesh and PayPal. Striving to achieve the best results possible</p>
-            <aside class="date">08.2015 – 10.2016</aside>
-          </details>
-          <details>
-            <summary class="job">Research Assistant </summary>
-            <p class="company">Serious Games Institute, UK</p>
-            <p class="job_description">Designing and conducting research project on using avatars in automobiles for Jaguar Land Rover.</p>
-            <aside class="date">02.2015 – 05.2015</aside>
-          </details>
-          <details>
-            <summary class="job">Programmer online surveys </summary>
-            <p class="company">Ipsos Ltd.</p>
-            <p class="job_description">Developing and monitoring marketing surveys for McDonald's, Chanel, Electrolux, Pepsi, some of the most famous Tobacco, soft-drinks, and chocolate companies, as well as for the healthcare, technology, cosmetics and fashion markets. Always satisfying the client's requirements and delivering excellent products. </p>
-            <aside class="date">10.2012 – 04.2014</aside>
-          </details>
-          <details>
-            <summary class="job">Developer, Internet applications</summary>
-            <p class="company">Dynamic Zones Ltd.</p>
-            <p class="job_description">Development of Internet applications for web developers. Technical writing. Publishing articles. </p>
-            <aside class="date">10.2011 – 03.2012</aside>
-          </details>
-          <details>
-            <summary class="job">QA and Web developer</summary>
-            <p class="company">JobTiger Ltd., Soﬁa</p>
-            <p class="job_description">Testing internet sites of the company JobTiger Ltd. Developing new functionalities for the site jobtiger.bg. Technical writing. </p>
-            <aside class="date">09.2010 - 12.2010</aside>
-          </details>
-          <details>
-            <summary class="job">QA and maintainance of data.bg </summary>
-            <p class="company">Homelan AD, Soﬁa</p>
-            <p class="job_description">Testing and maintaining the site. Publishing and editing information and articles. Forum administrator of www.data.bg.</p>
-            <aside class="date">09.2008 - 06.2009 </aside>
-          </details>
-        </section>
-        <section id="publications">
-          <h3>PUBLICATIONS</h3>
-          <p>The Potential of Serious Games Based on Literary Plots to Develop Knowledge, Skills and Habitual Patterns, VS-Games, Malta, 2014
-          Nature and Characteristics of Serious Games, 5-th Conference On E-Learning, Rouse, 2014
-          Serious games for behaviour change classification and overview, Contemporary Challenges To The Science Of Education International Conference, Sofia, 2014
-          The Potential of Serious Games for Language and Literature Learning, VSIM, Ravda, 2014</p>
-        </section>
-        <section id="education">
-          <h3>EDUCATION</h3>
-          <details>
-            <summary class="course">Decipher Programming Certiﬁcation</summary>
-            <p class="institution">FocusVision / Fresno State</p>
-            <p class="course_description">Python survey programming. Programmer in the Decipher platform.</p>
-            <aside class="date">09.2015</aside>
-          </details>
-          <details>
-            <summary class="course">PhD: Special Research Course </summary>
-            <p class="institution">Institute of Education, London</p>
-            <p class="course_description">Qualitative and Quantitative Research</p>
-            <aside class="date">04.2014 – 06.2014</aside>
-          </details>
-          <details>
-            <summary class="course">PhD: E-Learning </summary>
-            <p class="institution">Soﬁa University St. Kliment Ohridski</p>
-            <p class="course_description">Education, Serious games, Simulations</p>
-            <aside class="date">02.2013 - Present </aside>
-          </details>
-          <details>
-            <summary class="course">Master: Nordic Studies </summary>
-            <p class="institution">Soﬁa University St. Kliment Ohridski</p>
-            <p class="course_description">Swedish language and Nordic history and culture.</p>
-            <aside class="date">10.2010 - 06.2012</aside>
-          </details>
-          <details>
-            <summary class="course">Master: Computational Linguistics. Internet Technologies in the Humanities </summary>
-            <p class="institution">Soﬁa University St. Kliment Ohridski</p>
-            <p class="course_description">Specialist in the sphere of electronic processing, analysis and publication of the texts.
-            Professional qualification in the main directions of computer appliances in Humanitarian Studies - processing of the natural language, electronic publications, problems related to cyberculture and net literature.
-            Courses in Programming and Markup Languages.
-
-            Master's thesis: Mythological motifs in the fantasy role playing games.
-            Analysis of the problems of Interactive fiction in video games.</p>
-            <aside class="date">11.2008 - 09.2009 </aside>
-          </details>
-          <details>
-            <summary class="course">Bachelor: Bulgarian Philology </summary>
-            <p class="institution">Soﬁa University St. Kliment Ohridski</p>
-            <p class="course_description">Specialist in Bulgarian language and literature. Professional qualiﬁcation for teacher at high schools. Humanities</p>
-            <aside class="date">10.2004 - 09.2008 </aside>
-          </details>
-        </section>
-      </section>
-      <footer>
-        <hr>
-        <p>CONTACT e-mail linkdin</p>
-      </footer>
+        </footer>
+      </div>
     </body>
 </html>
