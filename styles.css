@@ -52,15 +52,7 @@ aside header#frame{
   text-align: center;
   background-color: #fff;
 }
-details{
-  border: 1 solid black;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-summary{
-  font-weight: bold;
-  text-shadow: 1px 1px 4px;
-}
+
 p.info{
   font-size: 0.7rem;
   margin: 5%;
@@ -81,6 +73,43 @@ p.info{
   width: 70%;
   padding: 10px;*/
 }
+
+.job  {
+
+}
+.job > span{
+  display: inline-flex;
+  justify-content: space-space-around;
+}
+.course > span{
+  display: inline-flex;
+  justify-content: space-space-around;
+}
+.job, .course{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+
+  font-weight: bold;
+  text-shadow: 1px 1px 4px;
+  margin-top: 2rem;
+}
+.date, .company, .institution{
+  font-size: 0.6rem;
+  color: grey;
+}
+.job_description, .course_description, .citations{
+  font-size: 0.8rem;
+}
+.citations, #publications{
+  line-height: 1.7em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
 main h3{
   padding: 0px;
 }
