@@ -239,16 +239,36 @@ li a:hover:not(.active) {
   background-color: #56698F;
 }
 
+@media screen and (max-width: 1024px) {
+  section#contact{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
     nav li {
     float: none;
     width: 100%;
   }
+  }
+}
+@media screen and (max-width: 800px) {
+  section#contact{
+    font-size: 0.6rem;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .fc {
     flex-direction: column;
+  }
+  section#contact{
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
