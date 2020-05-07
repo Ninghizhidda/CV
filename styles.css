@@ -88,11 +88,9 @@ p.info{
 }
 .job > span{
   display: inline-flex;
-  justify-content: space-space-around;
 }
 .course > span{
   display: inline-flex;
-  justify-content: space-space-around;
 }
 .job, .course{
   display: flex;
@@ -213,29 +211,26 @@ footer a{
   text-align: center;
   cursor: pointer;
   width: 100%;
-
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-  margin: 2%;
-  width: 21%;
-}
-
-li a {
-  display: block;
   color: white;
   font-size: 0.8rem;
+
+
+}
+/*footer flexbox  */
+.ffc {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.ffc > * {
+  flex: 1;
+  padding: 10px;
+  margin: 2%;
+  background-color: #7690C9;
+  text-align: center;
 }
 
-li a:hover:not(.active) {
+nav a:hover:not(.active) {
   background-color: #56698F;
 }
 
@@ -246,23 +241,18 @@ li a:hover:not(.active) {
     padding-right: 10px;
   }
 }
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
-    nav li {
-    float: none;
-    width: 100%;
-  }
-  }
-}
 @media screen and (max-width: 800px) {
   section#contact{
     font-size: 0.6rem;
     padding-left: 0px;
     padding-right: 0px;
   }
+  .ffc {
+    flex-direction: column;
+  }
 }
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .fc {
     flex-direction: column;
   }
