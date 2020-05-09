@@ -94,10 +94,8 @@ p.info{
 }
 .job, .course{
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
+  flex-flow: row wrap;
   justify-content: space-between;
-
   font-weight: bold;
   margin-top: 2rem;
 }
@@ -202,7 +200,6 @@ footer{
 
 }
 footer a{
-  background-color: #7690C9;
   margin: 0px;
   padding: 8px 16px;
   text-decoration: none;
@@ -213,8 +210,6 @@ footer a{
   width: 100%;
   color: white;
   font-size: 0.8rem;
-
-
 }
 /*footer flexbox  */
 .ffc {
@@ -229,11 +224,20 @@ footer a{
   background-color: #7690C9;
   text-align: center;
 }
-
-nav a:hover:not(.active) {
+nav div:hover{
   background-color: #56698F;
 }
 
+@media only screen and (min-device-width : 1200px) {
+  div.fc{
+    max-width: 1200px;
+    background: #fff;
+    margin: 0 auto;
+  }
+  body{
+    background: #C5D2ED;
+  }
+}
 @media screen and (max-width: 1024px) {
   section#contact{
     font-size: 0.8rem;
