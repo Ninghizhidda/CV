@@ -125,6 +125,17 @@ main h3 span{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+/*hide sections */
+.hide{
+  display: none;
+}
+.toggle{
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #000000;
+}
+.toggle:hover{
+  background-color: #56698F;
+}
 /*images */
 img.clogo{
   width: 2em;
@@ -156,8 +167,9 @@ img#photo{
 /*Slider */
 .slidecontainer {
   width: 80%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 3em;
 }
 
 .slider {
@@ -223,6 +235,7 @@ footer a{
   margin: 2%;
   background-color: #7690C9;
   text-align: center;
+    box-shadow: 4px 4px 8px #000000;
 }
 nav div:hover{
   background-color: #56698F;
